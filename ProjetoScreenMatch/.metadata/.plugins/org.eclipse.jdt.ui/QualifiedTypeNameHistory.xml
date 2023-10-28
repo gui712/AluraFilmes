@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="br.com.alura.screenmatch.modelos.Filme"/>
+    <fullyQualifiedTypeName name="br.com.alura.screenmatch.calculos.CalculadoraDeTempo"/>
+    <fullyQualifiedTypeName name="br.com.alura.screenmatch.modelos.Titulo"/>
+    <fullyQualifiedTypeName name="br.com.alura.screenmatch.modelos.Serie"/>
+    <fullyQualifiedTypeName name="br.com.alura.screenmatch.calculos.Classificavel"/>
+    <fullyQualifiedTypeName name="br.com.alura.screenmatch.calculos.FiltroRecomendacao"/>
+    <fullyQualifiedTypeName name="br.com.alura.screenmatch.modelos.Episodio"/>
+</qualifiedTypeNameHistroy>

@@ -1,0 +1,4 @@
+INDEX VERSION 1.131+D:\WorkspaceJava\ProjetoScreenMatch\.metadata\.plugins\org.eclipse.jdt.core
+1865797976.index
+1890554821.index
+1258040502.index
