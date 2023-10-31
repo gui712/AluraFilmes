@@ -11,12 +11,16 @@ import br.com.alura.screenmatch.modelos.Serie;
 public class Principal {
 	public static void main(String[] args) {
 		
-		Filme meuFilme = new Filme("Poderoso Chefao", 1970);
+		Filme meuFilme = new Filme("Poderoso Chefao");
+		meuFilme.setAnoDeLancamento(1970);
 		meuFilme.setDuracaoEmMinutos(180);
 		meuFilme.avalia(8);
 		meuFilme.exibeFichaTecnica();
 		
-		Serie lost = new Serie("Lost", 2000);
+		Serie lost = new Serie();
+		
+		lost.setNome("Lost");
+		lost.setAnoDeLancamento(2000);
 		
 		lost.exibeFichaTecnica();
 		lost.setTemporadas(10);
@@ -25,8 +29,9 @@ public class Principal {
 		
 		System.out.println("Duração para maratonar Lost: " + lost.getDuracaoEmMinutos());
 		
-		Filme outroFilme = new Filme("Avangers", 2019);
+		Filme outroFilme = new Filme("Avangers",2019);
 		
+		outroFilme.setAnoDeLancamento(2019);
 		outroFilme.setDuracaoEmMinutos(200);
 		
 		CalculadoraDeTempo calcula = new CalculadoraDeTempo();
@@ -35,15 +40,19 @@ public class Principal {
 		calcula.inclui(lost);
 		System.out.println(calcula.getTempoTotal());
 		
-		Filme favorito = new Filme("The Matrix", 1999);
+		Filme favorito = new Filme("The Matrix");
+		favorito.setAnoDeLancamento(1999);
 		favorito.setDuracaoEmMinutos(135);
 		favorito.setIncluidoNoPlano(true);
 
-		Filme outro = new Filme("John Wick", 2014);
+		Filme outro = new Filme("John Wick");
+		outro.setAnoDeLancamento(2014);
 		outro.setDuracaoEmMinutos(101);
 		outro.setIncluidoNoPlano(true);
 
-		Serie serie = new Serie("La Casa de Papel", 2017);
+		Serie serie = new Serie();
+		serie.setNome("La Casa de Papel");
+		serie.setAnoDeLancamento(2017);
 		serie.setIncluidoNoPlano(true);
 		serie.setAtiva(true);
 		serie.setTemporadas(5);

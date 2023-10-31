@@ -44,6 +44,8 @@ public class Principal {
 		outro.setIncluidoNoPlano(true);
 
 		Serie serie = new Serie("La Casa de Papel", 2017);
+		serie.setNome();
+		serie.setAnoDeLancamento(2017);
 		serie.setIncluidoNoPlano(true);
 		serie.setAtiva(true);
 		serie.setTemporadas(5);
