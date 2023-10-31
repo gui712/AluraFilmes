@@ -75,7 +75,6 @@ public class Principal {
 		
 		filtro.filtra(meuFilme);
 		
-		
 		Episodio episodio = new Episodio();
 		
 		episodio.setNumero(1);
@@ -91,7 +90,6 @@ public class Principal {
 		
 		System.out.println("Tamanho da lista: " + listaDeFilmes.size());
 		System.out.println("Primeiro Filme: " + listaDeFilmes.get(0).getNome());
-		System.out.println("Primeiro Filme: " + listaDeFilmes.get(0).toString());
 		System.out.println(listaDeFilmes);
 	}
 

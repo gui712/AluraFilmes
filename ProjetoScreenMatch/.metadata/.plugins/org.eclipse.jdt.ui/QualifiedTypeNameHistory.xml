@@ -8,4 +8,5 @@
     <fullyQualifiedTypeName name="br.com.alura.screenmatch.calculos.Classificavel"/>
     <fullyQualifiedTypeName name="br.com.alura.screenmatch.calculos.FiltroRecomendacao"/>
     <fullyQualifiedTypeName name="br.com.alura.screenmatch.modelos.Episodio"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
 </qualifiedTypeNameHistroy>
